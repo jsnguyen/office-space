@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERF Office Manager</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <h2>SERF 3rd Floor</h2>
+    <svg id="office-layout" width="500" height="500"></svg>
+    <input id="edit-input" class="edit-input" type="text">
+
+    <div id="edit-container" class="edit-container">
+        <label>Occupant:</label>
+        <input id="edit-name" type="text">
+        <label>Start Date:</label>
+        <input id="edit-start-date" type="date">
+        <label>Leaving Date:</label>
+        <input id="edit-end-date" type="date">
+        <button onclick="saveEdit()">Save</button>
+        <button onclick="cancelEdit()">Cancel</button>
+    </div>
+
+    <script src="office_space.js"></script>
+
+</body>
+</html>
