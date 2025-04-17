@@ -1,0 +1,946 @@
+[
+    {
+      "office_id": "426",
+      "full_name": "Karin Sandstrom",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "427",
+      "full_name": "Dusan Keres",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "428",
+      "full_name": "David Tytler",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "429",
+      "full_name": "Matt Chu",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "430",
+      "full_name": "Shelley Wright",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "431",
+      "full_name": "Yue (samuel) Lu",
+      "appointment_type": "Graduate Student",
+      "start_date": "2024-08-05",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "431",
+      "full_name": "Cameron Trapp",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "431",
+      "full_name": "Stella Zhang",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "433",
+      "full_name": "Thomas Wong",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "434",
+      "full_name": "Alyssa Johnson",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "434",
+      "full_name": "Prakamya Agrawal",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "434",
+      "full_name": "Preethi Karpoor",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "435",
+      "full_name": "Ilyse Clark",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "435",
+      "full_name": "Beck Dacus",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "435",
+      "full_name": "Hannah Koziol",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "436",
+      "full_name": "Pat Diamond",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "437",
+      "full_name": "Sean Pike",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "437",
+      "full_name": "Michael Busch",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "438",
+      "full_name": "X Prochoska",
+      "appointment_type": "Visiting Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "438",
+      "full_name": "Kate Rubin",
+      "appointment_type": "Visiting Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "438",
+      "full_name": "Norman Murray",
+      "appointment_type": "Visiting Faculty",
+      "start_date": null,
+      "end_date": "2025-06-27",
+      "is_temporary": true
+    },
+    {
+      "office_id": "439",
+      "full_name": "Sophie Haight",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "429",
+      "full_name": "Sophie Haight",
+      "appointment_type": "Graduate Student",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "429",
+      "full_name": "Anaya Valluvan",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "460",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "462",
+      "full_name": "Steven Boggs",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "463",
+      "full_name": "Shelley Wright",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "464",
+      "full_name": "Quinn Konopacky",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "465",
+      "full_name": "Shasha Arani",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "465",
+      "full_name": "Casey Carslile",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "461B",
+      "full_name": "Steven Boggs",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "463A",
+      "full_name": "Jerome Maire",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "305",
+      "full_name": "Benjamin Pieczynski",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "319",
+      "full_name": "Casey Carslile",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "433",
+      "full_name": "Amedeo Romagnolo",
+      "appointment_type": "Visiting Student",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "434",
+      "full_name": "Debosmita Pathak",
+      "appointment_type": "Visiting Student",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "330A",
+      "full_name": "Mari Polletta",
+      "appointment_type": "Visiting Faculty",
+      "start_date": "2024-09-02",
+      "end_date": "2025-06-01",
+      "is_temporary": true
+    },
+    {
+      "office_id": "333B",
+      "full_name": "Mansi Padave",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": "2024-10-15",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "302",
+      "full_name": "Lingfeng Wei",
+      "appointment_type": "Graduate Student",
+      "start_date": "2024-07-12",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "302",
+      "full_name": "Aneesh Baburaj",
+      "appointment_type": "Graduate Student",
+      "start_date": "2024-07-12",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "303",
+      "full_name": "Bernie Jackson",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "304",
+      "full_name": "Clarissa Do",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "304",
+      "full_name": "Ben Sappey",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "305",
+      "full_name": "Matthew Bracamontes",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "306",
+      "full_name": "Will Hicks",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": "2024-09-06",
+      "is_temporary": true
+    },
+    {
+      "office_id": "306",
+      "full_name": "Jayke Nguyen",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "310",
+      "full_name": "Mingyun Cao",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "310",
+      "full_name": "Fredy Ramirez",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "323",
+      "full_name": "Amanda Cuervo",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "324",
+      "full_name": "Christine Flowers",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "325",
+      "full_name": "Anais Davalos",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "324",
+      "full_name": "Nitzan Bishri",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "324",
+      "full_name": "David Sisanachandeng",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "325",
+      "full_name": "Mikah Al-Arfaj",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "325",
+      "full_name": "Estrella Zaragoza",
+      "appointment_type": "Administrative Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "326",
+      "full_name": "Sean Casey",
+      "appointment_type": "Technical Staff",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "326",
+      "full_name": "Leah Valmidiano",
+      "appointment_type": "Technical Staff",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "328",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "330",
+      "full_name": "Emma Softich",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "330",
+      "full_name": "Lindsey Hands",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "331",
+      "full_name": "Kate Jirik",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "332",
+      "full_name": "Chris Munson",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "332",
+      "full_name": "Samantha Trumbo",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "333",
+      "full_name": "Kevin Crowley",
+      "appointment_type": "Project Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "333",
+      "full_name": "Anto Lonappan",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "334",
+      "full_name": "Jean-Baptiste Ruffio",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "335",
+      "full_name": "Raphael Flauger",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "336",
+      "full_name": "Chris Theissen",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "337",
+      "full_name": "Kim Griest",
+      "appointment_type": "Faculty Emeritus",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "337",
+      "full_name": "Michale Norman",
+      "appointment_type": "Professor of the Grad Division",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "338",
+      "full_name": "Quinn Konopacky",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "339",
+      "full_name": "Carl Melis",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "340",
+      "full_name": "Adam Burgasser",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "370",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "371",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "372",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "372",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "375",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "375",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "376",
+      "full_name": "Adam Burgasser",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "376",
+      "full_name": "Karin Sandstrom",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "379",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "303A",
+      "full_name": "David Harker",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "303A",
+      "full_name": "Rameswar Sing",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "322A",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "330A",
+      "full_name": "Leah Valmidiano",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "330A",
+      "full_name": "Sean Casey",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "333A",
+      "full_name": "Alexie Kritsuk",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "333B",
+      "full_name": "Saavi Perera",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "333B",
+      "full_name": "Keming Zhang",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "375A",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "375A",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "381A",
+      "full_name": "Andrew Buffington",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "381A",
+      "full_name": "Bernie Jackson",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "382N-A",
+      "full_name": "Brian Keating",
+      "appointment_type": "Faculty in Physics",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "382N-A",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "382N-A",
+      "full_name": "Shelley Wright",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "402",
+      "full_name": "Kyle Kehrer",
+      "appointment_type": "Graduate Student",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "402",
+      "full_name": "Lindsay Lowry",
+      "appointment_type": "Visiting Researcher",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "404",
+      "full_name": "Kam Arnold",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "405",
+      "full_name": "Kyle Kremer",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "406",
+      "full_name": "Anna Suliga",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "406",
+      "full_name": "Lukas Graff",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "407",
+      "full_name": "Ethan Nadler",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "409",
+      "full_name": "George Fuller",
+      "appointment_type": "Affiliate Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "412",
+      "full_name": "Steven Boggs",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "413",
+      "full_name": "Rick Rothchild",
+      "appointment_type": "Research Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "414",
+      "full_name": "Shelley Wright",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": "2024-08-30",
+      "is_temporary": true
+    },
+    {
+      "office_id": "414",
+      "full_name": "Ethan Nadler",
+      "appointment_type": "Faculty",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "419",
+      "full_name": "Bryson Cale",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "419",
+      "full_name": "Alex Madurowicz",
+      "appointment_type": "Visiting Researcher",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "420",
+      "full_name": "Jarred Roberts",
+      "appointment_type": "Project Scientist",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "420",
+      "full_name": "Aida Wofford",
+      "appointment_type": "Visiting Faculty",
+      "start_date": null,
+      "end_date": "2024-11-01",
+      "is_temporary": true
+    },
+    {
+      "office_id": "421",
+      "full_name": "David Tytler",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": "2024-07-31",
+      "is_temporary": true
+    },
+    {
+      "office_id": "423",
+      "full_name": "Shelley Wright",
+      "appointment_type": "Faculty",
+      "start_date": "2024-09-02",
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "424",
+      "full_name": "Alison Coil",
+      "appointment_type": "Faculty",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "425",
+      "full_name": "Aaron Brown",
+      "appointment_type": "Technical Staff",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    },
+    {
+      "office_id": "425",
+      "full_name": "Devontae Baxter",
+      "appointment_type": "Postdoctoral Scholar",
+      "start_date": null,
+      "end_date": null,
+      "is_temporary": false
+    }
+  ]

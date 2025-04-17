@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Space Manager</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>SERF Floor Occupancy</h2>
+
+    <div class="floor-toggle">
+        <button id="floor-btn-3" class="floor-button active" onclick="displayFloor(3)">3rd Floor</button>
+        <button id="floor-btn-4" class="floor-button" onclick="displayFloor(4)">4th Floor</button>
+    </div>
+
+    <svg id="office-layout" width="500" height="500"></svg>
+
+    <div id="edit-backdrop"></div>
+
+    <div id="edit-container">
+        <h4 id="edit-office-id">Edit Office</h4>
+
+        <div id="occupant-list">
+            <p><em>Loading occupants...</em></p>
+        </div>
+        <hr style="border: none; border-top: 1px solid #eee; margin: 15px 0;">
+
+        <div id="edit-fields">
+             <h5 id="edit-mode-label">Edit Occupant</h5>
+             <label for="edit-name">Name:</label>
+             <input id="edit-name" type="text">
+
+            <div style="text-align: center;">
+                    <label> Temporary? </label>
+                    <input type="checkbox" id="edit-temp">
+            </div>
+
+             <div id="date-fields" style="display: none; text-align: center;">
+                  <label for="edit-start-date">Start Date:</label>
+                  <input id="edit-start-date" type="date">
+
+                  <label for="edit-end-date">Leaving Date:</label>
+                  <input id="edit-end-date" type="date">
+             </div>
+
+              <div class="button-row">
+                 <button id="save-occupant-button" onclick="saveOccupantEdit()">Save Occupant</button>
+                 <button id="cancel-occupant-button" onclick="cancelOccupantEdit()">Cancel Edit</button>
+                 <button id="delete-occupant-button" onclick="deleteCurrentOccupant()">Delete Occupant</button>
+             </div>
+        </div>
+
+
+        <div class="button-row">
+            <button id="add-new-button" onclick="prepareAddOccupant()">Add New Occupant</button>
+            <button onclick="closeEditPopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="office_space.js"></script>
+
+</body>
+</html>

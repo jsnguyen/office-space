@@ -1,37 +1,315 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    background-color: #f0f2f5; /* Lighter page background */
+    color: #333;
 }
+h2 {
+    color: #1a237e; /* Dark blue heading */
+}
+
 .office {
-    fill: lightgray;
-    stroke: black;
-    stroke-width: 2px;
+    fill: #e3f2fd; /* Lighter, softer blue for empty */
+    stroke: #90a4ae; /* Grey stroke */
+    stroke-width: 1px;
+    rx: 4; /* More rounded corners */
+    ry: 4;
+    transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out; /* Smooth transition */
 }
-.occupied {
-    fill: lightblue;
+.office-group.occupied .office { /* Select .office inside an .occupied group */
+    fill: #bbdefb; /* Slightly darker blue for occupied */
 }
-text {
-    font-size: 12px;
-    fill: black;
-    font-weight: bold;
-    pointer-events: none; /* Prevents text from blocking interactions */
+
+/* Hover effect */
+.office-group:hover .office {
+    fill: #aed5fc; /* Lighten fill on hover */
+    stroke: #1e88e5; /* Blue stroke on hover */
+    cursor: pointer;
 }
-.edit-container {
-    position: absolute;
+
+
+/* Style for the office ID text */
+.id-text {
+    font-size: 11px;
+    fill: #37474f;    /* Darker grey blue */
+    font-weight: 600; /* Semi-bold */
+    text-anchor: middle;
+    pointer-events: none;
+}
+
+
+.occupant-text {
+    font-size: 10px;
+    fill: #1c313a;
+    pointer-events: none;
+    text-anchor: middle; /* Center align text */
+}
+
+/* Style for the occupant's name line(s) */
+.occupant-name tspan {
+   font-weight: 500;
+   /* text-anchor: middle; Inherited */
+}
+
+/* Style for the date line(s) */
+.occupant-dates tspan {
+    font-size: 8.5px;
+    fill: #546e7a;
+    font-style: italic;
+    /* text-anchor: middle; Inherited */
+}
+
+
+#edit-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: none;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffffff; /* White background */
+    padding: 25px;
+    border-radius: 8px; /* Softer radius */
+    border: 1px solid #cfd8dc; /* Light border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    z-index: 1001;
+    width: 320px;
+    text-align: left; /* Align content left */
 }
-.edit-container input {
+#edit-container h4 {
+    margin-top: 0;
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.edit-container input[type="text"],
+.edit-container input[type="date"] {
     display: block;
-    margin: 5px 0;
-    padding: 5px;
-    width: 180px;
+    width: 100%;
+    margin: 8px 0 12px 0; /* Adjust spacing */
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #b0bec5; /* Defined border */
+    border-radius: 4px;
 }
+.edit-container input[type="checkbox"] {
+     vertical-align: middle;
+}
+
+
+.edit-container label {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #455a64; /* Label color */
+    font-weight: 500;
+}
+
+.edit-input { /* Seems unused now? */
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+}
+
 svg {
     display: block;
-    margin: auto;
+    margin: 20px auto; /* Add margin around SVG */
+    background-color: #ffffff; /* White background for SVG area */
+    border-radius: 4px;
+    border: 1px solid #eceff1; /* Light border for SVG */
+}
+
+#edit-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Darker backdrop */
+    z-index: 1000;
+    display: none;
+}
+
+/* List styles in popup */
+#occupant-list {
+    margin-bottom: 20px;
+}
+#occupant-list .occupant-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px; /* More padding */
+    border-bottom: 1px solid #eceff1; /* Lighter separator */
+}
+#occupant-list .occupant-item:last-child {
+    border-bottom: none;
+}
+
+#occupant-list .occupant-item span {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 0.95em;
+}
+
+#occupant-list button {
+    padding: 3px 8px;
+    font-size: 0.8em;
+    background-color: #e0e0e0; /* Lighter button */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#occupant-list button:hover {
+    background-color: #bdbdbd;
+}
+
+/* Edit fields section */
+#edit-fields {
+    border: none; /* Remove dashed border */
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f8f9fa; /* Very light grey background */
+    border-radius: 4px;
+}
+#edit-fields h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #37474f;
+}
+
+
+#date-fields {
+    margin-top: 10px;
+    padding-left: 0; /* No indent needed */
+    border-top: 1px solid #e0e0e0; /* Separator line */
+    padding-top: 10px;
+}
+#date-fields label {
+    display: block; /* Labels above inputs */
+     margin-bottom: 3px;
+}
+#date-fields input[type="date"] {
+    width: calc(50% - 10px); /* Two dates side-by-side */
+    display: inline-block;
+    padding: 8px;
+}
+#date-fields input[type="date"]:last-of-type {
+    margin-right: 0;
+}
+
+
+/* Popup buttons */
+#edit-container .button-row {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+#edit-container button {
+    margin: 5px;
+    padding: 8px 15px; /* More padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+#edit-container button:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#save-occupant-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+#save-occupant-button:hover {
+    background-color: #43a047;
+}
+#add-new-button {
+     background-color: #1976d2; /* Blue */
+     color: white;
+}
+#add-new-button:hover {
+     background-color: #1565c0;
+}
+
+#delete-occupant-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+#delete-occupant-button:hover {
+    background-color: #e53935;
+}
+#cancel-occupant-button,
+#edit-container button[onclick="closeEditPopup()"] {
+     background-color: #898989; /* Light grey */
+     color: #ffffff;
+}
+#cancel-occupant-button:hover,
+#edit-container button[onclick="closeEditPopup()"]:hover {
+     background-color: #c9c9c9;
+}
+
+/* styles.css */
+
+/* ... (keep existing styles) ... */
+
+/* Floor Toggle Buttons */
+.floor-toggle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.floor-button {
+    padding: 8px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #b0bec5;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.floor-button:hover {
+    background-color: #e0e0e0;
+    border-color: #90a4ae;
+}
+
+.floor-button.active {
+    background-color: #1976d2; /* Blue for active */
+    color: white;
+    border-color: #1976d2;
+    font-weight: 600;
+}
+
+/* Inside styles.css */
+
+/* Keep existing .office and .occupied styles as defaults or fallbacks */
+.office {
+    fill: #e3f2fd; /* Default empty color */
+    stroke: #90a4ae;
+    stroke-width: 1px;
+    rx: 4;
+    ry: 4;
+    transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out;
+}
+.office-group.occupied .office { /* Updated selector */
+    fill: #bbdefb; /* Default occupied color */
+}
+
+/* Hover effect (keep or adjust) */
+.office-group:hover .office {
+    /* You might want to use stroke or opacity for hover now */
+    stroke: #1e88e5; /* Blue stroke on hover */
+    stroke-width: 2px;
+    opacity: 0.8; /* Example */
+    cursor: pointer;
 }
