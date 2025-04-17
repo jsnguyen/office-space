@@ -18,8 +18,6 @@ let currentFloor = 3; // Start by showing 3rd floor
 const thirdFloorRooms = ['302', '303', '303A', '304', '305', '306', '310', '319', '322A', '323', '324', '325', '326', '328', '330', '330A', '331', '332', '333', '333A', '333B', '334', '335', '336', '337', '338', '339', '340', '370', '371', '372', '375', '375A', '376', '379', '381A', '382N-A'];
 const fourthFloorRooms = ['402', '404', '405', '406', '407', '409', '412', '413', '414', '419', '420', '421', '423', '424', '425', '426', '427', '428', '429', '430', '431', '433', '434', '435', '436', '437', '438', '439', '460', '461B', '462', '463', '463A', '464', '465'];
 
-
-
 // --- Modify drawOffices function ---
 function drawOffices() {
     const officesToDraw = floorOffices[currentFloor]; // Get data for the active floor
@@ -48,9 +46,19 @@ function drawOffices() {
 
                 g.each(function(d) { updateOccupantTextsMultiline(d3.select(this), d); });
 
+
+// Helper function to convert area name to CSS class
+function getAreaClass(areaName) {
+    if (!areaName) return '';
+    return "area-" + areaName.toLowerCase().replace(/\s+/g, '-');
+}
+
                 return g;
             },
             update => { // Elements to update
+                update.attr("transform", d => `translate(${d.x}, ${d.y})`)
+                    // Update classes in case occupancy changes
+                    .attr("class", d => `office-group ${d.occupants && d.occupants.length > 0 ? "occupied" : ""} ${getAreaClass(d.area_name)}`)
                 update.attr("transform", d => `translate(${d.x}, ${d.y})`)
                     // Update classes in case occupancy changes
                     .attr("class", d => `office-group ${d.occupants && d.occupants.length > 0 ? "occupied" : ""}`);
@@ -258,6 +266,12 @@ function drawOffices() {
                 return g;
             },
             update => { // Elements to update (e.g., if data changes but office exists)
+                 // Update position if needed (though layout is fixed now)
+                update.attr("transform", d => `translate(${d.x}, ${d.y})`);
+                 // Update occupants
+                update.each(function(d) { updateOccupantTextsMultiline(d3.select(this), d); });
+                 // Update classes in case occupancy changes
+                update.attr("class", d => `office-group ${d.occupants && d.occupants.length > 0 ? "occupied" : ""} ${getAreaClass(d.area_name)}`)
                  // Update position if needed (though layout is fixed now)
                 update.attr("transform", d => `translate(${d.x}, ${d.y})`);
                  // Update occupants

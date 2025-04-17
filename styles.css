@@ -17,9 +17,7 @@ h2 {
     ry: 4;
     transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out; /* Smooth transition */
 }
-.office-group.occupied .office { /* Select .office inside an .occupied group */
-    fill: #bbdefb; /* Slightly darker blue for occupied */
-}
+
 
 /* Hover effect */
 .office-group:hover .office {
@@ -301,9 +299,7 @@ svg {
     ry: 4;
     transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out;
 }
-.office-group.occupied .office { /* Updated selector */
-    fill: #bbdefb; /* Default occupied color */
-}
+
 
 /* Hover effect (keep or adjust) */
 .office-group:hover .office {
