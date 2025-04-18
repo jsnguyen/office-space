@@ -22,7 +22,7 @@ This web application provides a visual representation of office space occupancy 
 
 * **Backend:** Python, Flask
 * **Database:** SQLite
-* **Frontend:** HTML, CSS[cite: 2], JavaScript
+* **Frontend:** HTML, CSS, JavaScript
 * **Visualization:** D3.js (v7)
 
 ## File Structure
